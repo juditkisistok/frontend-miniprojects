@@ -1,8 +1,43 @@
 body {
     margin: 0;
+    background: #1B244A;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #EEE;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+.score,
+.increment-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.score {
+    background: #080001;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 125px;
+    text-align: center;
+}
+
+.increment-btn {
+    display: flex;
+    justify-content: space-between;
+    color: #9AABD8;
+}
+
+.increment-btn p {
+    line-height: 25px;
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
 }
