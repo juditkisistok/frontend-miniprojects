@@ -52,10 +52,17 @@ h3 {
     padding: 10px;
     border: 2px solid #9AABD8;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .increment-btn p:hover,
 .increment-btn p:focus {
     color: #1B244A;
     background: #9AABD8;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
 }
